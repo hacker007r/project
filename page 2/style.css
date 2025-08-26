@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+
+    padding: 0%;
+}
+
+.head {
+
+    text-align: center;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+
+}
+
+.card::before {
+    content:before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+        background: #f7b500;
+        border-radius: 50%;
+    }
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    bottom: -80px;
+    width: 200px;
+    height: 200px;
+    background: #f7b500;
+    border-radius: 50%;
+
+
+}
+
+.img {
+    height: 1000px;
+    display: block;
+    z-index:1;
+}
+.content{
+    position: relative;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+}
+.card{
+    position:relative;
+    width: 300px;
+    height:500px;
+    background:white;
+    border-radius: 25px;
+    box-shadow:0 5px 25px rgpa(0,0,0,0.5);
+    overflow:hidden;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:25%;
+}
+.form input
+.form button{
+    
+    padding: 8px;
+    border-radius: 15px;
+    border: 3px solid #1fc5e6;
+    
+}
+label{
+   margin:10px 0 5px;
+   font-weight:bold;
+
+}
+input{
+    padding: 10px;
+    background:blanchedalmond;
+    color:black;
+    border: none;
+    border-radius: 10px;
+   
+}
+button{
+    margin-left:90px;
+    padding: 5px;;
+    background-color: orange;
+    width: 70px;
+    border-radius:10px; 
+    margin-top:10px; 
+}
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-login button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    
+   
+}
+
+.google-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #444;
+    margin-bottom:50px;
+     width: 150px;
+
+
+}
+
+.google-btn img {
+    width: 25px;
+    margin-right: 8px;
+    height: 25px;;
+
+}
+
+
+

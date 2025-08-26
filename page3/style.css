@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0dfac;
+}
+
+.header {
+    background: linear-gradient(45deg, #f6891f, #e65c00);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .login-info {
+    font-size: 14px;
+}
+
+
+
+
+
+#subscribeBtn {
+    font-weight: bold;
+    background-color:#ee0a0a ;
+    border-radius:20px;
+    border-color: #ee0a0a;
+    border-style: dotted;
+    padding:10px;
+    width:150px;
+    
+   
+}
+
+#subscribeBtn:hover {
+    background:white ;
+    cursor: pointer;
+    color: #ee0a0a;
+   
+}
+nav{
+    
+    width: 225px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type:none;
+
+}
+}
